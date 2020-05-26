@@ -9,3 +9,7 @@
 
 # Sensor Library
 /(vendor|system/vendor)/lib/libsensirion_h_2.so         u:object_r:vendor_sensor_lib_file:s0
+
+# TimeKeep
+/sys/devices/qpnp-rtc-17/rtc/rtc0(/.*)?			u:object_r:sysfs_rtc:s0
+/system/vendor/bin/timekeep				u:object_r:timekeep_exec:s0
