@@ -22,6 +22,10 @@ TARGET_SPECIFIC_HEADER_PATH := $(COMMON_PATH)/include
 
 BUILD_FINGERPRINT := samsung/hltexx/hlte:5.0/LRX21V/N9005XXSGBRI2:user/release-keys
 
+SELINUX_IGNORE_NEVERALLOWS := true
+TEMPORARY_DISABLE_PATH_RESTRICTIONS := true
+BUILD_BROKEN_DUP_RULES := true
+
 # A15's generic ARM mempcy
 TARGET_CPU_MEMCPY_BASE_OPT_DISABLE := true
 
@@ -53,6 +57,7 @@ DEVICE_MANIFEST_FILE += $(COMMON_PATH)/manifest.xml
 # Kernel
 BOARD_KERNEL_BASE := 0x00000000
 BOARD_KERNEL_CMDLINE := console=null androidboot.hardware=qcom user_debug=31 msm_rtb.filter=0x3F androidboot.bootdevice=msm_sdcc.1
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 BOARD_KERNEL_IMAGE_NAME := zImage
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_KERNEL_SEPARATED_DT := true
