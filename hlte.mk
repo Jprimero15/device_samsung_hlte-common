@@ -21,8 +21,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 # Boot animation
+TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
+
+# AOSP/SSOS things
+TARGET_GAPPS_ARCH := arm
+TARGET_INCLUDE_WIFI_EXT := false
 
 # Audio
 PRODUCT_COPY_FILES += \

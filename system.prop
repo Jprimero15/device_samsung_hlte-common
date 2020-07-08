@@ -51,6 +51,9 @@ ro.vendor.extension_library=/vendor/lib/libqti-perfd-client.so
 # NFC
 ro.nfc.port=I2C
 
+# Processor
+ro.processor.model=MSM8974
+
 # Radio
 persist.data.netmgrd.qos.enable=true
 persist.data.qmi.adb_logmask=0
