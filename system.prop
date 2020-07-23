@@ -76,3 +76,5 @@ ro.havoc.maintainer=Jprimero15
 # Lolz config
 ro.config.lolz=true
 
+# Zygote preforking
+persist.device_config.runtime_native.usap_pool_enabled=true
