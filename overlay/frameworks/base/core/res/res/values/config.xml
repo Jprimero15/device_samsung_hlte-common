@@ -333,4 +333,13 @@
     <!-- Whether device supports an alt. ambient display -->
     <bool name="config_alt_ambient_display">true</bool>
 
+    <!-- Whether to enable doze always on -->
+    <bool name="config_enableDozeAlwaysOn">true</bool>
+
+    <!-- Whether device supports double tap to wake(fixes amb8ent theoriticaly) -->
+    <bool name="config_supportDoubleTapWake">true</bool>
+
+   <!-- enable livedisplay -->
+   <bool name="config_liveDisplayAvailable">true</bool>
+
 </resources>
