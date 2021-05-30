@@ -9,3 +9,6 @@
 
 # Sensor Library
 /(vendor|system/vendor)/lib/libsensirion_h_2.so         u:object_r:vendor_sensor_lib_file:s0
+
+ # sysfs - fps info
+/sys/devices/virtual/graphics/fb0/measured_fps          u:object_r:sysfs_graphics:s0
