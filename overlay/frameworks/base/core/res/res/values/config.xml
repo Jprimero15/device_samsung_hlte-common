@@ -290,4 +290,10 @@
     <!-- Button Backlight -->
     <bool name="config_button_brightness_support">true</bool>
 
+    <!-- Disable rounded corners -->
+    <dimen name="config_dialogCornerRadius">0.0dip</dimen>
+    <dimen name="config_buttonCornerRadius">0.0dip</dimen>
+    <dimen name="rounded_corner_radius">0dp</dimen>
+    <dimen name="config_progressBarCornerRadius">0.0dip</dimen>
+
 </resources>
