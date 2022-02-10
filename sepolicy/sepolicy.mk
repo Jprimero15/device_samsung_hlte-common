@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018 The LineageOS Project
+# Copyright (C) 2022 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,5 +15,5 @@
 #
 
 # Board specific SELinux policy variable definitions
-BOARD_SEPOLICY_DIRS += \
-    device/samsung/hlte-common/sepolicy/common
+BOARD_VENDOR_SEPOLICY_DIRS += \
+    device/samsung/hlte-common/sepolicy/vendor
