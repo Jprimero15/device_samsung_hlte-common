@@ -269,7 +269,7 @@
     <bool name="config_HomeWakeButton">true</bool>
     
     <!-- Button Backlight -->
-    <bool name="config_button_brightness_support">true</bool>
+    <!--<bool name="config_button_brightness_support">true</bool>-->
 
     <!-- Disable rounded corners -->
     <dimen name="config_dialogCornerRadius">0.0dip</dimen>
